@@ -3,5 +3,4 @@
 
 ## Install
 
-```bash
-npm install @neisanbynum/dom-rect-calculator
+
