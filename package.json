@@ -2,10 +2,18 @@
   "name": "dom-rect-calculator",
   "version": "1.0.0",
   "description": "> A lightweight utility for calculating, managing, and mutating DOMRects.",
-  "main": "index.ts",
-  "scripts": {
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
+  },
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
   },
   "repository": {
     "type": "git",
